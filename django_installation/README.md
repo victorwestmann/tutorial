@@ -96,6 +96,8 @@ Now that you have your `virtualenv` started, you can install Django using `pip`.
     Successfully installed django
     Cleaning up...
 
+> If you get an error when calling pip on Windows platform please check if your project folder (djangogirls) is in a pathname that does NOT contains spaces. If it does please move it to another path (suggestion: C:\djangogirls).
+
 > If you get an error when calling pip on Ubuntu 12.04 please run `python -m pip install -U --force-reinstall pip` to fix the pip installation in the virtualenv.
 
 That's it! You're now (finally) ready to create a Django application! But to do that, you need a nice program to write your code in...
